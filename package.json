@@ -1,5 +1,5 @@
 {
-  "name": "angular5-rest",
+  "name": "angular5-restful",
   "version": "2.4.0",
   "description": "restful wrapper base on angular5 HttpClient",
   "main": "index.ts",
