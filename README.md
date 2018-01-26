@@ -6,4 +6,4 @@
 
 Install through npm:
 
-> npm install --save ng2-http
+> npm install --save angular5-restful
