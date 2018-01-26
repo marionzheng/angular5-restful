@@ -1,0 +1,51 @@
+{
+  "$schema": "../node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "demo"
+  },
+  "apps": [
+    {
+      "root": "demo",
+      "outDir": "demo/dist",
+      "assets": [],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "demo",
+      "styles": ["styles.css"],
+      "scripts": []
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./demo/protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "demo/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "demo/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "demo/e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./demo/karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  },
+  "packageManager": "cnpm"
+}
