@@ -1,7 +1,7 @@
 {
   "name": "angular5-rest",
   "version": "2.4.0",
-  "description": "restful wrapper for base on angular5 HttpClient",
+  "description": "restful wrapper base on angular5 HttpClient",
   "main": "index.ts",
   "scripts": {
     "test": "exit 1"
