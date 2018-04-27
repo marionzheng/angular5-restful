@@ -7,3 +7,13 @@
 Install through npm:
 
 > npm install --save angular5-restful
+
+### Demo
+
+> cd demo
+
+> npm install
+
+> ng serve
+
+

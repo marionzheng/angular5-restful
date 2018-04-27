@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { RestfulClientComponent } from './restful-client.component';
+import {RestfulClientComponent} from './restful-client.component';
 
 describe('RestfulClientComponent', () => {
   let component: RestfulClientComponent;
@@ -8,9 +8,9 @@ describe('RestfulClientComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RestfulClientComponent ]
+      declarations: [RestfulClientComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

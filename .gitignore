@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+/dist-server
 /tmp
 /out-tsc
 
@@ -30,6 +31,7 @@
 /coverage
 /libpeerconnection.log
 npm-debug.log
+yarn-error.log
 testem.log
 /typings
 
@@ -41,6 +43,7 @@ testem.log
 .DS_Store
 Thumbs.db
 
+/demo/dist
 *.iml
 *.iws
 *.ipr
